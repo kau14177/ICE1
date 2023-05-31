@@ -16,16 +16,16 @@ package card;
 public class Card {
 
    private String suit; //clubs, spades, diamonds, hearts
-   private int value;//1-13
+   private int value;//1-13   
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
     /**
      * @return the suit
      */
     public String getSuit() {
-        return suit;
+        return suit;    //Gagandeep Kaur
     }
-
+    
     /**
      * @param suit the suit to set
      */
