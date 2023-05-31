@@ -24,6 +24,7 @@ public class Card {
    /**
      * @return the suit
      */
+   
     public String getSuit() {
         return suit;    
     }
@@ -31,6 +32,7 @@ public class Card {
     /**
      * @param suit the suit to set
      */
+    
     public void setSuit(String suit) {
         this.suit = suit;
     }
@@ -38,6 +40,7 @@ public class Card {
     /**
      * @return the value
      */
+    
     public int getValue() {
         return value;
     }
