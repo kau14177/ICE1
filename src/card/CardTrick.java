@@ -17,7 +17,7 @@ public class CardTrick {
     {
         Card[] magicHand = new Card[7];
         
-        for (int i=0; i<magicHand.length; i++)  //Gagandeep Kaur
+        for (int i=0; i<magicHand.length; i++)  //Gagandeep Kaur  991699478
             
         {
             Card c = new Card();
