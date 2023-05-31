@@ -41,6 +41,9 @@ public class CardTrick
        magicHand[i]=c;
     }
    
+         Card luckyCard = new Card();
+        luckyCard.setValue(7);      // Set number of lucky card.
+        luckyCard.setSuit("clubs");  // Set the lucky card suit.
         
     Scanner scanner =new Scanner(System.in);
     
@@ -77,7 +80,11 @@ public class CardTrick
 
     }
     
-  
+  if (luckyCard.equals(userCard)) {
+            System.out.println("You found the lucky card!");
+        } else {
+            System.out.println("You did not find the lucky card.");
+        }
     }
     
 }
